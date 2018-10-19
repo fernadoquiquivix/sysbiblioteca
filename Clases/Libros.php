@@ -84,6 +84,10 @@
 		public function eliminarLibros($idlibro){
 			$c= new conectar();
 			$conexion=$c->conecxion();
+<<<<<<< HEAD
+=======
+			
+>>>>>>> 79b8749ad79bec5d57817dadb5a87057992d5248
 			$sql="DELETE from libro 
 					where idlibro='$idlibro'";
 			return mysqli_query($conexion,$sql);

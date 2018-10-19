@@ -68,4 +68,8 @@ $sql2="SELECT ejemplares from donacion where libro_idlibro=".$ver[0];
 	</tr>
 <?php endwhile; ?>
 </table>
+<<<<<<< HEAD
 </div>
+=======
+</div> 
+>>>>>>> 79b8749ad79bec5d57817dadb5a87057992d5248

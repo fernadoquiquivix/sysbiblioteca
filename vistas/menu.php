@@ -62,7 +62,11 @@
            <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-list-alt"></span> Actividades <span class="caret"></span></a>
             <ul class="dropdown-menu">
+<<<<<<< HEAD
               <li><a href="../layouts/prestamo.html">Prestamos</a></li>
+=======
+              <li><a href="prestamos.php">Prestamos</a></li>
+>>>>>>> 79b8749ad79bec5d57817dadb5a87057992d5248
               <li><a href="devolucion.php">Devoluciones</a></li>
                <li><a href="consultaLibros.php"><span class="glyphicon glyphicon-book"></span> Consulta Libros</a></li>
             </ul>

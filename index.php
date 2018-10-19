@@ -20,7 +20,11 @@
 			<div class="col-sm-4"></div>
 			<div class="col-sm-4">
 				<div class="panel panel-primary">
+<<<<<<< HEAD
 					<div align='center' class="panel panel-heading">Registro y Gestion Bibliotecaria</div>
+=======
+					<div class="panel panel-heading">Registro y Gestion Bibliotecaria</div>
+>>>>>>> 79b8749ad79bec5d57817dadb5a87057992d5248
 					<div class="panel panel-body">
 						<p>
 							<img src="img/logo-biblioteca.png" border="2" width="340" height="190">

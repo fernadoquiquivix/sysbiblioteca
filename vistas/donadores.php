@@ -23,9 +23,12 @@ if(isset($_SESSION['usuario'])){
 						<input type="text" class="form-control input-sm" name="telefono" id="telefono">
 						<label>Direccion</label>
 						<input type="text" class="form-control input-sm" name="direccion" id="direccion">
+<<<<<<< HEAD
 					
 						<!--<label>Sexo</label>
 						<input type="text" class="form-control input-sm" name="sexo" id="sexo">-->
+=======
+>>>>>>> 79b8749ad79bec5d57817dadb5a87057992d5248
 						<p></p>
 						<span class="btn btn-primary" id="registro">Registrar</span>
 
@@ -164,7 +167,11 @@ if(isset($_SESSION['usuario'])){
 
 						if(r==1){
 							$('#frmRegistro')[0].reset();
+<<<<<<< HEAD
 							$('#tablaDonadoresLoad').load('donadores/tabladonadores.php');
+=======
+								$('#tablaDonadoresLoad').load('donadores/tablaDonadores.php');
+>>>>>>> 79b8749ad79bec5d57817dadb5a87057992d5248
 							alertify.success("Agregado con exito");
 						}else{
 							alertify.error("Fallo al agregar :(");

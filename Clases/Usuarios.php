@@ -32,7 +32,11 @@
 	
 			$_SESSION['iduser']=self::traeID($datos);
 
+<<<<<<< HEAD
 			$sql="SELECT tipousuario, email,id_usuario
+=======
+			$sql="SELECT tipousuario, apellido
+>>>>>>> 79b8749ad79bec5d57817dadb5a87057992d5248
 					from usuarios 
 				where email='$datos[0]'
 				and password='$password'";
@@ -41,7 +45,10 @@
 			$ver=mysqli_fetch_row($result);
 			$_SESSION['tipousuario'] =$ver[0];
 			$_SESSION['usuario']=$ver[1];
+<<<<<<< HEAD
 			$_SESSION['idUsuario']=$ver[2];
+=======
+>>>>>>> 79b8749ad79bec5d57817dadb5a87057992d5248
 
 			if(mysqli_num_rows($result) > 0){
 				return 1;
